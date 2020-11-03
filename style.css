@@ -1,0 +1,30 @@
+.app {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+.simon {
+	background-color: gray;
+	width: 100%;
+}
+.player {
+	flex-basis: 50%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100%;
+}
+.box {
+	margin-top: 12.5px;
+	flex-basis: 42%;
+}
+.message {
+	font-size: larger;
+}
+.title {
+	text-align: center;
+}
